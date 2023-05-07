@@ -409,7 +409,7 @@ RIGHT SIDE OF MAIN CONTENT
     }
 }
 
-@media (max-width: 412px){
+@media (max-width: 500px){
     .main__column{
         margin-top: 20px;
     }
@@ -420,4 +420,24 @@ RIGHT SIDE OF MAIN CONTENT
         align-items: center;
         gap: 7px;
     }
+
+    .sidebar__article-right{
+        margin-bottom: 10px;
+    }
+    .sidebar__article-main{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .sidebar__popular-article-block{
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 400px){
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 }
