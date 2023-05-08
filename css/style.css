@@ -427,7 +427,6 @@ RIGHT SIDE OF MAIN CONTENT
     .sidebar__article-main{
         display: flex;
         flex-wrap: wrap;
-
     }
     .sidebar__popular-article-block{
         flex-shrink: 0;
